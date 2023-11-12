@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="black">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="max-w-7xl mx-auto">
+
+
+    <!-- header section start -->
+    <section>
+        <div class="navbar lg:flex-row flex-col mt-5 bg-base-100">
+            <div class="flex-1">
+                <a class="btn btn-ghost normal-case text-xl"><img class="w-24" src="images/logo.png" alt=""></a>
+            </div>
+            <div class="flex-none">
+
+                <div class="flex gap-2">
+                    <a href=""><img src="images/becomeModel.png" alt=""></a>
+                    <a href=""><img class="w-10" src="images/twitter.png" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- header section ends -->
+
+    <!-- navbar section starts  -->
+    <section>
+        <div class="lg:border-solid  lg:border-2 lg:border-white">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <a class="btn btn-ghost"></a>
+                </div>
+
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu text-white menu-horizontal px-1">
+                        <li><a class="hover:text-[#e81313]">Home</a></li>
+                        <li><a class="hover:text-[#e81313]">Available Models</a></li>
+                        <li tabindex="0">
+                            <details>
+                                <summary class="hover:text-[#e81313]">Local Agencies</summary>
+                                <ul class="p-2 ">
+                                    <li><a class="hover:text-[#e81313]">Ama Modelling</a></li>
+                                    <li><a class="hover:text-[#e81313]">Hussie Models</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a class="hover:text-[#e81313]">Production</a></li>
+                        <li><a class="hover:text-[#e81313]">Workshops</a></li>
+                        <li><a class="hover:text-[#e81313]">Castings</a></li>
+                        <li><a class="hover:text-[#e81313]">Book an Appointment</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg> -->
+                            <i class="fa-solid text-2xl fa-bars"></i>
+                        </label>
+                        <ul
+                            class=" menu text-white menu-sm dropdown-content translate-x-[-100%] rounded-xl mt-3 z-[1] lg:hidden  bg-black  w-52">
+                            <li><a>Home</a></li>
+                            <li><a>Available Models</a></li>
+                            <li>
+                                <a>Local Agencies</a>
+                                <ul class="p-2 ">
+                                    <li><a>Ama Modelling</a></li>
+                                    <li><a>Hussie Models</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Item 3</a></li>
+                            <li><a>Production</a></li>
+                            <li><a>Workshops</a></li>
+                            <li><a>Castings</a></li>
+                            <li><a>Book an Appointment</a></li>
+                        </ul>
+                    </div>
+                    <a class=" btn-ghost normal-case text-xl"></a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- navbar section ends  -->
+
+    <!-- banner section -->
+    <section class="px-7">
+        <div class="mt-16 space-y-5">
+            <img class="mx-auto" src="images/img1.png" alt="">
+            <img class="mx-auto" src="images/img8.png" alt="">
+        </div>
+    </section>
+
+    <div>
+        <p class="text-center text-white text-3xl font-bold mb-2 mt-9">Our Services</p>
+    </div>
+
+    <!-- services section -->
+    <section class="px-10">
+        <div class="flex flex-col md:flex-row  gap-5 justify-center ">
+            <a href=""> <img class="md:w-80 w-full mx-auto" src="images/service.jpg" alt=""></a>
+            <a href=""><img class="md:w-80 w-full mx-auto" src="images/service2.jpg" alt=""></a>
+            <a href=""><img class="md:w-80 w-full mx-auto" src="images/service3.jpg" alt=""></a>
+        </div>
+    </section>
+
+    <!-- latest video section -->
+    <div class=" px-10">
+        <p class="text-left text-white border-b-2 text-3xl font-bold mb-2 mt-9">Latest Videos</p>
+    </div>
+
+    <section class="  px-10">
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-4 ">
+            <!-- each video  -->
+            <a href="">
+                <div>
+                    <img class="md:w-80 mx-auto" src="images/latest-videos1.jpg" alt="">
+                    <p class="text-xl  hover:underline hover:text-blue-600 text-red-600 ">Foot Fetish POV JOI #3 -
+                        Trailer</p>
+                    <p class="text-sm text-white font-semibold"><span class="font-bold ">Posted:</span> Mon, 23 Oct 2023
+                    </p>
+                </div>
+            </a>
+            <!-- each video  -->
+            <a href="">
+                <div>
+                    <img class="md:w-80 mx-auto" src="images/latest-videos2.jpg" alt="">
+                    <p class="text-xl  hover:underline hover:text-blue-600 text-red-600 ">Foot Domination POV</p>
+                    <p class="text-sm text-white font-semibold"><span class="font-bold">Posted:</span> Mon, 23 Oct 2023
+                    </p>
+                </div>
+            </a>
+            <!-- each video  -->
+            <a href="">
+                <div>
+                    <img class="md:w-80 mx-auto" src="images/latest-videos3.jpg" alt="">
+                    <p class="text-xl  hover:underline hover:text-blue-600 text-red-600 ">Femdom with Slave</p>
+                    <p class="text-sm text-white font-semibold"><span class="font-bold">Posted:</span> Mon, 23 Oct 2023
+                    </p>
+                </div>
+            </a>
+            <!-- each video  -->
+
+            <a href="">
+                <div>
+                    <img class="md:w-80 mx-auto" src="images/latest-videos4.jpg" alt="">
+                    <p class="text-xl  hover:underline hover:text-blue-600 text-red-600 ">Female Domination</p>
+                    <p class="text-sm text-white font-semibold"><span class="font-bold">Posted:</span> Mon, 23 Oct 2023
+                    </p>
+                </div>
+            </a>
+            <!-- each video  -->
+
+            <a href="">
+                <div>
+                    <img class="md:w-80 mx-auto" src="images/latest-videos5.jpg" alt="">
+                    <p class="text-xl  hover:underline hover:text-blue-600 text-red-600 ">Bondage</p>
+                    <p class="text-sm text-white font-semibold"><span class="font-bold ">Posted:</span> Mon, 23 Oct 2023
+                    </p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <div class="flex mt-10 justify-center">
+        <button class="btn-ghost hover:bg-[#337ab7] px-5 py-2 rounded-sm text-white bg-[#e81313]">See All
+            Videos</button>
+    </div>
+
+    <!-- latest photos section -->
+    <div class=" text-white px-10">
+        <p class="text-left  border-b-2 text-3xl font-bold mb-5 mt-9">Latest Photos</p>
+    </div>
+
+    <section class=" text-white  px-10">
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-4 ">
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img src="images/latest_photos.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Kira Fox</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Kira Fox</span></P>
+                    <p><span class="font-bold">Posted: </span>Wed, 8 Nov 2023</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img src="images/latest_photos2.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Ally Wild Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Ally Wild</span></P>
+                    <p><span class="font-bold">Posted: </span>Fri, 29 Sep 2023</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img src="images/latest_photos3.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Letty Lechery Red Lingerie
+                    </p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Letty Lechery</span></P>
+                    <p><span class="font-bold">Posted: </span>Posted: Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img class="" src="images/latest_photos4.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Shy Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]"> Shy</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img src="images/latest_photos5.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Nikita Reznikova Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Nikita Reznikova</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img class="w-full" src="images/fix.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Kaylynn Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Kaylynn Keys</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img class="w-full" src="images/latest_photos7.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Abby Somers Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Abby Somers</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img src="images/latest_photos8.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Sasha Stone Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Sasha Stone</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img src="images/latest_photos9.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Violet Viper Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Violet Viper</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img src="images/latest_photos10.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Be My Ash Tray</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Mena Carlisle</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img src="images/latest_photos11.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Luna Mars Photo Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Luna Mars</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img class="w-full" src="images/latest_photos12.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Riley Jean Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Riley Jean</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img class="w-full" src="images/latest_photos13.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Mena Carlisle Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Mena Carlisle</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img class="w-full" src="images/latest_photos14.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Iris Ivy Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Iris Ivy</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img class="w-full" src="images/latest_photos15.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Lexi Rainz Galleryy</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Lexi Rainz</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+            <!-- each photo -->
+            <a href="">
+                <div>
+                    <img class="w-full" src="images/latest_photos16.jpg" alt="">
+                    <p class="text-[#e81313] text-xl hover:underline hover:text-[#337ab7]">Bianca Bangs Gallery</p>
+                    <P><span class="font-bold">Model: </span><span
+                            class="text-[#e81313] hover:underline hover:text-[#337ab7]">Bianca Bangs</span></P>
+                    <p><span class="font-bold">Posted: </span>Tue, 30 Nov</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <div class="flex mt-10 justify-center">
+        <button class="btn-ghost hover:bg-[#337ab7] px-5 py-2 rounded-sm text-white bg-[#e81313]">See All
+            Videos</button>
+    </div>
+
+
+
+
+
+    <!-- footer section starts here -->
+    <section class="my-20 text-white  ">
+        <footer class="flex lg:flex-row px-8  justify-start  flex-col gap-2 lg:justify-between">
+            <div class="font-semibold text-center lg:text-left w-full text-sm  lg:w-3/5">
+                <div>
+                    <a class="hover:border-b-2" href="">Homepage-</a>
+                    <a class="hover:border-b-2" href="">Studio Rental-</a>
+                    <a class="hover:border-b-2" href="">Director/Camera Man-</a>
+                    <a class="hover:border-b-2" href="">Video Editing -</a>
+                    <a class="hover:border-b-2" href="">Content Writing -</a>
+                </div>
+                <div>
+                    <a class="hover:border-b-2" href="">Content Management-</a>
+                    <a class="hover:border-b-2" href="">Custom Logos-</a>
+                    <a class="hover:border-b-2" href="">Slider/Carousel-</a>
+                    <a class="hover:border-b-2" href="">DVD Box Covers -</a>
+                    <a class="hover:border-b-2" href="">Contact Us -</a>
+                </div>
+                <div>
+                    <a class="hover:border-b-2" href="">Become A Model-</a>
+                    <a class="hover:border-b-2" href="">Male Performer Application</a>
+                </div>
+                <div>
+                    <a class="hover:border-b-2" href="">18 U.S.C. 2257- </a>
+                    <a class="hover:border-b-2" href="">PRIVACY NOTICE - TERMS OF USE</a>
+                </div>
+            </div>
+            <div class="relative   lg:w-2/5">
+                <input class="  text-center w-full  bg-white lg:w-full py-2" placeholder="Search" type="text">
+                <div class="">
+                    <i class="fa-solid absolute text-2xl right-5 -mt-9
+                text-red-700
+                fa-magnifying-glass"></i>
+                </div>
+
+            </div>
+        </footer>
+    </section>
+    <!-- footer section ends here -->
+</body>
+
+</html>
